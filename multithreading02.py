@@ -1,4 +1,4 @@
-# Import key libraries, classes and functions
+# Import key libraries
 import threading
 
 # Function - Simple function to print
@@ -10,5 +10,5 @@ def uf():
 
 # Create a thread
 t = threading.Thread(target=uf) # Target is looking at the function address
-# Start the thread 
+# Start the thread
 t.start()
